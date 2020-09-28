@@ -18,8 +18,9 @@ module.exports = override(
 );
 ```
 
-`customize-cra-eslint` use `root/.eslintrc.js` for default config.  
-you can also customize your eslint rules for `customize-cra-eslint`, for example:
+`customize-cra-eslint` use `root/.eslintrc.js` for default rules.  
+
+You can also customize your eslint rules for `customize-cra-eslint`, for example:
 ```js
 const { override } = require('customize-cra');
 const eslintConfigOverrides = require('customize-cra-eslint');
