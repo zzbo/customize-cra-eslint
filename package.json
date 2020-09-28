@@ -1,0 +1,19 @@
+{
+  "name": "customize-cra-eslint",
+  "version": "0.1.2",
+  "description": "customize cra use eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzbo/customize-cra-eslint.git"
+  },
+  "author": "zzbozheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zzbo/customize-cra-eslint/issues"
+  },
+  "homepage": "https://github.com/zzbo/customize-cra-eslint#readme"
+}
