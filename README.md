@@ -7,8 +7,8 @@ npm i customize-cra-eslint
 ```
 
 ## Usage
-- add configuration file `config-overrides.js` at the root of your project.
-- add customize-cra config content as following:
+- Add and edit configuration file `config-overrides.js` at the root of your project.
+- Add or update customize-cra config content as following:
 ```js
 const { override } = require('customize-cra');
 const eslintConfigOverrides = require('customize-cra-eslint');
@@ -18,9 +18,9 @@ module.exports = override(
 );
 ```
 
-customize-cra-eslint use `root/.eslintrc.js` for default config.
-customize your eslint rules:
-```
+`customize-cra-eslint` use `root/.eslintrc.js` for default config.
+you can also customize your eslint rules for `customize-cra-eslint`, for example:
+```js
 const { override } = require('customize-cra');
 const eslintConfigOverrides = require('customize-cra-eslint');
 const eslintConfig = require('./.eslintrc.js');
