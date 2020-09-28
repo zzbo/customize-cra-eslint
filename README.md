@@ -1,5 +1,5 @@
 # customize-cra-eslint
-use eslint config for customize-cra
+customize eslint config for customize-cra.
 
 ## Install
 ```bash
@@ -18,7 +18,7 @@ module.exports = override(
 );
 ```
 
-`customize-cra-eslint` use `root/.eslintrc.js` for default config.
+`customize-cra-eslint` use `root/.eslintrc.js` for default config.  
 you can also customize your eslint rules for `customize-cra-eslint`, for example:
 ```js
 const { override } = require('customize-cra');
