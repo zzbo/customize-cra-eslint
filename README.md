@@ -3,7 +3,7 @@ customize eslint config for customize-cra.
 
 ## Install
 ```bash
-npm i customize-cra-eslint
+npm i customize-cra-eslint -D
 ```
 
 ## Usage
