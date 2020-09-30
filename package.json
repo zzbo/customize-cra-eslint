@@ -1,6 +1,6 @@
 {
   "name": "customize-cra-eslint",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "customize cra use eslint config",
   "main": "index.js",
   "scripts": {
